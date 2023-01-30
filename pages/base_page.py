@@ -25,4 +25,4 @@ class Page:
         expected_text = "30"
         assert element.is_displayed(), "O elemento não existe!"
         actual_text = element.text
-        assert actual_text == expected_text, f"Expected text '{expected_text}' but got '{actual_text}'"
+        assert actual_text == expected_text, f"Expected text '{expected_text}' but got '{actual_text}'" 

@@ -23,5 +23,5 @@ def sinal_igual(context):
 
 
 @then(u'eu verifico se o resultado da operação é trinta')
-def resultado_conta(context):
+def recebe_resultado(context):
     context.app.pages_calc.recebe_resultado()
